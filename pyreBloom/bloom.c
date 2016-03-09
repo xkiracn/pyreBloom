@@ -95,7 +95,6 @@ int init_pyrebloom(
             return PYREBLOOM_ERROR;
         } else {
             freeReplyObject(reply);
-            return PYREBLOOM_OK;
         }
     } else {
         /* Make sure that we can ping the host */
